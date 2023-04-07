@@ -23,7 +23,8 @@
     "paths": {
       "@nrwl/nx-workshop": [
         "libs/nx-workshop/src/index.ts"
-      ]
+      ],
+      "@angular/*": ["./node_modules/@angular/*"]
     }
   },
   "exclude": [
